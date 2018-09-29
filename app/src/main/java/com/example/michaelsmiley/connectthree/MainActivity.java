@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    // 0: is Blue, 1: is Red, 2: is Empty
+    // 0: is Blue, 1: is Red, 2: is Empty Space
     int[] gameState = {2, 2, 2, 2, 2, 2, 2, 2, 2};
 
     int[][] winningPositions = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}, {0, 3, 6}, {1, 4, 7}, {2, 5, 8}, {0, 4, 8}, {2, 4, 6}};
